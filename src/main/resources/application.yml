@@ -4,7 +4,7 @@ spring:
   application:
     name: MultiTenant
   datasource:
-    url: 'jdbc:postgresql://localhost:5432/test?ApplicationName=MultiTenant'
+    url: 'jdbc:postgresql://172.17.0.2:5432/test?ApplicationName=MultiTenant'
     username: 'postgres'
     password: 'postgres'
     driver-class-name: org.postgresql.Driver

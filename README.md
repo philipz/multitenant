@@ -1,4 +1,13 @@
 # spring-boot-multitenant
+
+* Run PostgresSQL
+
+`docker run -d -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=test --name postgres postgres:9.6-alpine`
+
+* Modify application.yml
+
+Check the postgres container *IP*, and change the JDBC connection string.
+
 This is a Spring Boot multi-tenant sample application which supports all multiple-tenancy models. By default multi schema model is enabled.</br>
 Multi-Tenancy model is enabled using  [Hibernate multi-tenancy support](https://docs.jboss.org/hibernate/orm/4.2/devguide/en-US/html/ch16.html).</br>
 
