@@ -1,5 +1,7 @@
 # spring-boot-multitenant
 
+## [Blog](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)
+
 * Run PostgresSQL
 
 `docker run -d -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=test --name postgres postgres:9.6-alpine`
